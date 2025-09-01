@@ -5,8 +5,8 @@ import './globals.css'
 const InterFont = Inter()
 
 export const metadata: Metadata = {
-  title: 'さくらいろ',
-  description: '',
+  title: 'Skriro',
+  description: 'Who are you?',
 }
 
 export default function RootLayout({
