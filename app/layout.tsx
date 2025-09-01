@@ -2,12 +2,12 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
-const InterFont = Inter();
+const InterFont = Inter()
 
 export const metadata: Metadata = {
-  title: 'Skriro - さくらいろ',
+  title: 'さくらいろ',
   description: '',
-};
+}
 
 export default function RootLayout({
   children,
@@ -20,5 +20,5 @@ export default function RootLayout({
         {children}
       </body>
     </html>
-  );
+  )
 }
